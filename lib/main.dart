@@ -46,7 +46,7 @@ class _MyHomePageState extends State<MyHomePage> {
   double calculatePi(){
     int d=1, sig=1;
     double t, s=0;
-    int n=1000000;
+    int n=10000;
 
     Stopwatch stpw = new Stopwatch();
     stpw.start();
